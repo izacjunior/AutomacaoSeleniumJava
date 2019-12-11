@@ -18,6 +18,9 @@ import suporte.Web;
 @DataLoader(filePaths = "src/test/resources/informacaoUsuarioPage.csv")
 public class InformacaoUsuarioPageObject {
 
+	//EXECUTAR TESTES POR LINHA DE COMANDO
+	//mvn clean test -Dtest=tests.InformacaoUsuarioPageObject
+	
 	private WebDriver navegador;
 
 	@Before
